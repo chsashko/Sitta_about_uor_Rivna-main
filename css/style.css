@@ -17,18 +17,72 @@ header {
     float: right;
     right: 4em;
     display: inline-flex;
+    flex-direction: row;
+}
+nav{
+    position: relative;
+    top: -44%;
+    right: 5%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-items: center;
+}
+.searchBox{
+    position: relative;
+    width: 65px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+    flex-direction: row;
+    right: 5%;
+    transition: 0.5s;
+}
+.searchBox:hover{
+    width: 400px;
+}
+.searchBox input{
+    background: #ffd84a;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: none;
+    padding: 5px 30px;
+    outline: none;
+    font-size: 1.1em;
+    color: #404040;   
+}
+
+.searchBox input::placeholder,
+.searchBox input{
+    color: transparent;
+}
+.searchBox:hover input::placeholder,
+.searchBox:hover input{
+    color: #404040;
+}
+
+ion-icon{
+    position: absolute;
+    right: 20px;
+    color: #404040;
+    font-size: 1.5em;
+    cursor: pointer;
 }
 
 .topik_menu {
     position: relative;
-    top: -2.5em;
-    padding-right: 3em;
+    padding-right: 2em;
     font-size: 1.2em;
     font-family: 'El Messiri', sans-serif;
 }
 
+
+
 main {
-    width: 1920px;
+    width: 100%;
     height: 1080px;
     margin: 0 auto;
     background-image: url("https://i.imgur.com/KYd3Ezu.png");
@@ -52,7 +106,7 @@ footer {
 }
 
 div {
-    width: 80em;
+    width: 100%;
     margin-right: 10px;
     text-align: center;
 }
@@ -113,3 +167,4 @@ div {
 .topik_menu a:hover:before {
   width: 70%;
 }
+
