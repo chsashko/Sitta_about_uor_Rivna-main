@@ -168,3 +168,19 @@ div {
   width: 70%;
 }
 
+.active-page a:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    border-bottom: 2px solid #404040; 
+    transition: all 0.5s;
+  }
+
+.active-page {
+    position: relative;
+    padding-right: 2em;
+    font-size: 1.2em;
+    font-family: 'El Messiri', sans-serif;
+}
