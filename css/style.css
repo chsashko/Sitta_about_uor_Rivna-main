@@ -19,7 +19,7 @@ header {
 }
 nav{
     position: relative;
-    top: -44%;
+    top: 20%;
     right: 5%;
     display: flex;
     justify-content: flex-end;
