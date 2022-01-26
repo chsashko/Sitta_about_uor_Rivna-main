@@ -1,3 +1,4 @@
+
 header {
     display: flex;
 
@@ -175,4 +176,9 @@ footer div {
 .topik_menu a:hover:before {
   width: 70%;
 }
-
+.active-page{
+    font-family: 'El Messiri', sans-serif;
+    position: relative;
+    padding-right: 2em;
+    font-size: 1.2em;  
+}
