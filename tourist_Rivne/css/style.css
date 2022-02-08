@@ -1,4 +1,6 @@
-
+*{
+    box-sizing: border-box;
+}
 header {
     display: flex;
 
@@ -59,7 +61,6 @@ nav{
     font-size: 1.1em;
     color: #404040;   
 }
-
 .searchBox input::placeholder,
 .searchBox input{
     color: transparent;
@@ -68,7 +69,6 @@ nav{
 .searchBox:hover input{
     color: #404040;
 }
-
 ion-icon{
     position: absolute;
     right: 20px;
@@ -76,32 +76,31 @@ ion-icon{
     font-size: 1.5em;
     cursor: pointer;
 }
-
 .topik_menu {
     position: relative;
     padding-right: 2em;
     font-size: 1.2em;
     font-family: 'El Messiri', sans-serif;
 }
-
 .logoLink{
     position:relative;
     top: 1em;
     left: 1em;
 }
-
 main {
     width: 100%;
     height: 1080px;
     margin: 0 auto;
-    background-image: url("https://i.imgur.com/KYd3Ezu.png");
+    background: #000;
+    /*background-image: url("https://i.imgur.com/KYd3Ezu.png");*/
+    background-image: url("https://www.nastol.com.ua/pic/201507/1920x1080/nastol.com.ua-142962.jpg");
+    background-attachment: fixed;
     background-repeat: no-repeat;
+    opacity: 1;
+
 }
 
-.container {
-    height:67.5 em;
-    width: 100%;
-}
+
 
 footer {
     margin-top: auto;
@@ -111,24 +110,20 @@ footer {
     font-family: 'Raleway', sans-serif;
     color: #FFFFFF;
     display: inline-flex;
-    /*таким чудом я розмістив div'и в футері по горизонталі*/
-}
+    /*таким чудом я розмістив div'и в футері по горизонталі*/}
 
 footer div {
     width: 100%;
     margin-right: 10px;
-    text-align: center;
-}
+    text-align: center;}
 
 .logo_white {
     width: 12em;
-    height: 4.5em;
-}
+    height: 4.5em;}
 
 .sponsor_img {
     width: 6.5em;
-    height: 6.5em;
-}
+    height: 6.5em;}
 
 .sibir_menu,
 .sponsor,
