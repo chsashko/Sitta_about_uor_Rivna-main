@@ -1,4 +1,6 @@
-
+body{
+    height: 100%;
+}
 header {
     display: flex;
 
@@ -91,31 +93,33 @@ main {
     width: 100%;
     height: 1080px;
     margin: 0 auto;
-    background: #000;
+    background: white;
     /*background-image: url("https://i.imgur.com/KYd3Ezu.png");*/
-    background-image: url("https://www.nastol.com.ua/pic/201507/1920x1080/nastol.com.ua-142962.jpg");
+    /*background-image: url("https://www.nastol.com.ua/pic/201507/1920x1080/nastol.com.ua-142962.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
-    opacity: 1;
+    opacity: 1;*/
 
 }
 
 
 
 footer {
-    margin-top: auto;
     background-color: #404040;
     height: 9em;
     width: 100%;
     font-family: 'Raleway', sans-serif;
     color: #FFFFFF;
     display: inline-flex;
+    margin-bottom: 0px;
     /*таким чудом я розмістив div'и в футері по горизонталі*/}
 
 footer div {
     width: 100%;
     margin-right: 10px;
-    text-align: center;}
+    text-align: center;
+
+}
 
 .logo_white {
     width: 12em;

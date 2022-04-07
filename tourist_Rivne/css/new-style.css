@@ -1,0 +1,66 @@
+/* Тараканівський форт*/
+.fort-block{
+	display: inline-flex;
+	align-content: center;
+}
+
+.fort{
+	height: 25em;
+	width: 20em;
+	margin-top: 10em;
+	margin-left: 10em;
+	border-radius: 20px;
+
+}
+.fort-text{
+	font-size: 2em;
+	font-family: 'Montserrat', bold;
+	color: black;
+	margin-top: 8.5em;
+	margin-left: 7em;
+}
+
+/* Тунель кохання */
+.zal-block{
+	display: inline-flex;
+	align-content: center;
+}
+
+.zal{
+	height: 15em;
+	width: 15em;
+	margin-top: 10em;
+	margin-left: 20em;
+	border-radius: 20px;
+
+}
+.zal-text{
+	font-size: 2em;
+	font-family: 'Russo One', light;
+	font-weight: 100;
+	color: black;
+	margin-top: 8.5em;
+	margin-left: 7em;
+}
+
+/* Бункер Еріка Коха */
+.bunker-block{
+	display: inline-flex;
+	align-content: center;
+}
+
+.bunker{
+	height: 15em;
+	width: 15em;
+	margin-top: 10em;
+	margin-left: 10em;
+	border-radius: 20px;
+
+}
+.bunker-text{
+	font-size: 2em;
+	font-family: Bebas Neue;
+	color: black;
+	margin-top: 8.5em;
+	margin-left: 7em;
+}

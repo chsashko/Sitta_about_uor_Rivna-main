@@ -8,7 +8,7 @@ header {
     justify-content: space-between;
     align-items: flex-start;
 }
-
+/* Список з сторінок */ 
 .menu {
     position: relative;
     float: right;
@@ -16,6 +16,7 @@ header {
     display: inline-flex;
     flex-direction: row;
 }
+/* Блок навігації Search + ul */
 nav{
     position: relative;
     top: 20%;
@@ -25,6 +26,7 @@ nav{
     flex-direction: row;
     align-items: center;
 }
+/* Search */
 .searchBox{
     position: relative;
     width: 65px;

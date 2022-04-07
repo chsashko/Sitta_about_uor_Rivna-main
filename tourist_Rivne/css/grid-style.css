@@ -140,3 +140,43 @@
     grid-row-start: 3;
     grid-row-end: 4; 
 }
+/* HTML to this css file
+
+                <div class="block-1">
+                    <img src="css/img/Beer-factory-2-square.jpg" alt="">
+                    <span>Пивзавод</span>
+                </div>
+                <div class="block-2"><span>ЦIкавI мIсця в РIвному</span>
+                    <p>Ми знайшли цікаві фото та невеличку інформацію популярних, туристичних місць Рівного.</p>
+                </div>
+                <div class="block-3">
+                    <img src="css/img/tunel of love-square-2.jpg" alt="">
+                    <span>Тунель</span>        
+                    <span>кохання</span>            
+                </div>   
+                <div class="block-4">
+                    <img src="css/img/Fort-square.jpeg.jpg" alt="">
+                    <span>Тараканiвський</span>
+                    <span>Форт</span>
+                </div>
+                <div class="block-5">
+                    <div class="shader">
+                        <img src="css/img/Organ hall-square.jpg" alt="">
+                        <span>Органна</span>
+                        <span>зала</span>
+                    </div>
+                </div> 
+                <div class="block-6">
+                    <div class="shader">
+                        <img src="css/img/Museum-quare.jpg" alt="">
+                        
+                        <span>Краезнавчий</span>
+                        <span>Музей</span></div>
+                    </div>
+                <div class="block-7"><span>block-7</span></div>
+                <div class="block-8"><span>block-8</span></div>
+                <div class="block-9">
+                    <img src="css/img/Choha-square.jpg" alt="">
+                    <span>Бункер Ерiка</span>
+                    <span>Кохi</span>
+                </div> 
