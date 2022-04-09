@@ -1,16 +1,19 @@
 /* Тараканівський форт*/
 .container{
 	display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 4em;
-    width: 65%;
-    margin-left: 20em;
+	margin: 4em auto;
+    width: 70%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
+
+
 .fort-block{
-	display: inline-flex;
+	display: flex;
+    width: 90%;
     align-content: center;
+    justify-content: space-between;
 }
 
 .fort{
@@ -21,55 +24,78 @@
     border-radius: 20px;
 
 }
+
+.info-tarFort-block{
+	display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+
+}
+
 .fort-text{
 	font-size: 2em;
     font-family: 'Montserrat', bold;
     color: black;
-    margin-top: 1.5em;
-    margin-left: 8em;
+    margin: 1.5em auto;
+    /* margin-right: 2em; */
+    align-items: center;
+}
+.add-info-tarFort{
+	font-size: 1.5em;
+    font-family: 'Montserrat', bold;
+    color: black;
+    margin: 0.7em;
+    /* margin-right: 2em; */
+    align-items: center;
+    width: 73%;
 }
 
-/* Тунель кохання */
+
+
+/* Органний Зал */
 .zal-block{
-	display: inline-flex;
-	align-content: center;
+	display: flex;
+    width: 90%;
+    justify-content: center;
+    margin-top: 10em;
 }
 
 .zal{
-	height: 15em;
-	width: 15em;
-	margin-top: 10em;
-	margin-left: 20em;
-	border-radius: 20px;
+	height: 40em;
+    width: 36em;
+    /* margin-left: 4em; */
+    border-radius: 20px;
 
 }
 .zal-text{
 	font-size: 2em;
-	font-family: 'Russo One', light;
-	font-weight: 100;
-	color: black;
-	margin-top: 8.5em;
-	margin-left: 7em;
+    font-family: 'Montserrat', bold;
+    color: black;
+    margin: 1.5em auto;
 }
+
+
 
 /* Бункер Еріка Коха */
 .bunker-block{
-	display: inline-flex;
-	align-content: center;
+	display: flex;
+    width: 90%;
+    justify-content: center;
+    margin-top: 10em;
 }
 
 .bunker{
-	height: 15em;
-	width: 15em;
-	margin-top: 10em;
-	margin-left: 10em;
-	border-radius: 20px;
+	height: 40em;
+    width: 36em;
+    /* margin-top: 3em; */
+    /* margin-left: 10em; */
+    border-radius: 20px;
 
 }
 .bunker-text{
 	font-size: 2em;
-	font-family: Bebas Neue;
+	font-family: 'Montserrat', bold;
 	color: black;
-	margin-top: 8.5em;
-	margin-left: 7em;
+	margin: 1.5em auto;
 }
