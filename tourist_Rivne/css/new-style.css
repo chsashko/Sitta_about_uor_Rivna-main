@@ -8,15 +8,6 @@
     background: rgba(223, 223, 223, 70%);
 }
 
-.add-info{
-    font-size: 1.5em;
-	display: flex;
-	margin: 0em auto;
-    width: 70%;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    background: rgba(223, 223, 223, 20%);
-}
 
 .add-info{
 	font-size: 1.5em;
