@@ -1,0 +1,69 @@
+@media screen and (min-width:  1366px) and (max-width:  1920px){
+	.logoLink{
+    	position:relative;
+    	top: 0.65em;
+    	left: 0.65em;
+    	width: 8em;
+    	height: 3em;
+	}
+
+	.topik_menu, .active-page{
+    	font-size: 0.9em;
+	}
+	header {
+    	height: 4.4em;
+	}
+	.searchBox{
+    	width: 42.5px;
+    	height: 30px;
+    	right: 9%;
+	}
+	footer {
+    	height: 6em;
+	}
+	.logo_white {
+    	width: 8em;
+    	height: 3em;
+    	margin-top: -0.65em;
+    	margin-left: -2em;
+    }
+
+	.sponsor_img {
+		margin-top: -1.5em;
+    	width: 5em;
+    	height: 5em;
+    }
+
+    .sibir_menu,
+	.sponsor,
+	.developers {
+    	font-size: 0.7em;
+    	color: rgb(255, 255, 255);
+    }
+    .sponsor{
+    	margin-top: 1.5em;
+    }
+    
+    .sibir {
+    	margin-left: -5em;
+    	margin-top: -1em;
+	}
+	
+	.about_us {
+		margin-left: -5em;
+    	margin-top: -1em;
+	}
+	.fort, .zal, .bunker{
+		height: 30em;
+    	width: 25em;
+	}
+	.add-info{
+    	font-size: 1em;
+    	margin: 0.7em;
+	}
+	.tittle{
+    font-size: 1.6em;
+    margin: 1em auto;
+}
+
+}

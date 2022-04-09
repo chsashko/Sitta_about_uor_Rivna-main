@@ -93,12 +93,11 @@ main {
     width: 100%;
     min-height: 1080px;
     margin: 0 auto;
-    background: white;
-    /*background-image: url("https://i.imgur.com/KYd3Ezu.png");*/
-    /*background-image: url("https://www.nastol.com.ua/pic/201507/1920x1080/nastol.com.ua-142962.jpg");
+    background-image: url("img/1.jpg");
+    background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    opacity: 1;*/
+    opacity: 1;
 
 }
 
@@ -181,3 +180,4 @@ footer div {
     padding-right: 2em;
     font-size: 1.2em;  
 }
+
