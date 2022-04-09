@@ -1,5 +1,5 @@
 @media screen and (min-width:  1366px) and (max-width:  1919px){
-	.logoLink{
+		.logoLink{
     	position:relative;
     	top: 0.65em;
     	left: 0.65em;
@@ -41,7 +41,7 @@
     	color: rgb(255, 255, 255);
     }
     .sponsor{
-    	margin-top: 1.5em;
+    	margin-top: 1.37em;
     }
     
     .sibir {
@@ -53,17 +53,4 @@
 		margin-left: -5em;
     	margin-top: -1em;
 	}
-	.fort, .zal, .bunker{
-		height: 30em;
-    	width: 25em;
-	}
-	.add-info{
-    	font-size: 1em;
-    	margin: 0.7em;
-	}
-	.tittle{
-    font-size: 1.6em;
-    margin: 1em auto;
-}
-
 }
