@@ -9,14 +9,24 @@
 }
 
 
-.add-info{
-	font-size: 1.5em;
+.fort-info, .zal-info, .bunker-info{
+    font-size: 1.5em;
     font-family: 'Montserrat', bold;
     color: black;
     margin: 0.7em;
     /* margin-right: 2em; */
     align-items: center;
     width: 73%;
+}
+
+.fort-info, .fort-title{
+  opacity: 0;
+  transform: translateY(-200px);
+  transition: all 1.5s;
+}
+.fort-info.-active, .fort-title.-active{
+  opacity: 1;
+  transform: translateY(0px);
 }
 
 .info-block{
@@ -26,7 +36,7 @@
     align-items: center;
 
 }
-.tittle{
+.fort-title, .zal-title, .bunker-title{
     font-size: 2em;
     font-family: 'Montserrat', bold;
     color: black;
@@ -45,14 +55,19 @@
 }
 
 .fort{
-  height: 40em;
+    height: 40em;
     width: 36em;
-    /* margin-top: 3em; */
-    /* margin-left: 10em; */
     border-radius: 20px;
-
+    
+    transform: translateX(-300px);
+    transition: all 1.5s;
+    opacity: 0;
 }
 
+.fort.-active{
+  transform: translateX(0px);
+  opacity: 1;
+}
 
 /* Органний Зал */
 .zal-block{

@@ -72,11 +72,11 @@
 		height: 30em;
     	width: 25em;
 	}
-	.add-info{
+	.fort-info, .zal-info, .bunker-info{
     	font-size: 1em;
     	margin: 0.7em;
 	}
-	.tittle{
+	.fort-title, .zal-title, .bunker-title{
     font-size: 1.6em;
     margin: 1em auto;
 }
