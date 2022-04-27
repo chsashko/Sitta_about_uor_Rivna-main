@@ -91,12 +91,33 @@ main {
     /*background-image: url("https://i.imgur.com/KYd3Ezu.png");*/
     background-repeat: no-repeat;
 }
-
-.container {
-    height:67.5 em;
-    width: 100%;
+.line{
+    position: static;
+    min-height: 1920px;
+    width: 2.5em;
+    background: black;
+    margin-right: 15em;
+    border-radius: 10%;
+    margin-left: 1100px;
 }
-
+.circle_years{
+    position: relative;
+    width: 8em;
+    height: 8em;
+    background: #404040;
+    border-radius: 50%;
+    top: -1770px;
+    left: 1057px
+}
+.year{
+    position: relative;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.5em;
+    text-align: center;
+    top: 0.9em;
+    
+}
 footer {
     margin-top: auto;
     background-color: #404040;
