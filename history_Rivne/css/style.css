@@ -92,22 +92,21 @@ main {
     background-repeat: no-repeat;
 }
 .line{
-    position: static;
-    min-height: 1920px;
+    position: relative;
+    min-height: 1080px;
     width: 2.5em;
-    background: black;
-    margin-right: 15em;
+    background: #FFC700;
     border-radius: 10%;
-    margin-left: 1100px;
+    margin-left: 77%;
 }
 .circle_years{
-    position: relative;
+    position: absolute;
     width: 8em;
     height: 8em;
     background: #404040;
     border-radius: 50%;
-    top: -1770px;
-    left: 1057px
+    top: 30%;
+    left: 74.9%;
 }
 .year{
     position: relative;
