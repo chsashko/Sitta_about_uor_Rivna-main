@@ -14,12 +14,8 @@ const height = fort_anim.height;
 fort_anim.classList.add("-active");
 fort_info_anim.classList.add("-active")
 fort_title_anim.classList.add("-active");
-function anim() {
-	console.log(window);
 
-}
 window.addEventListener("scroll", function(){
-	console.log(bunker_anim);
 	if(window.scrollY >= 350){
 		zal_anim.classList.add("-active");
 		zal_info_anim.classList.add("-active")
@@ -31,4 +27,3 @@ window.addEventListener("scroll", function(){
 		bunker_title_anim.classList.add("-active");
 	}
 })
-setTimeout(anim, 1)

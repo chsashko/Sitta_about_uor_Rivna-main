@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/burger.css">
     <link rel="stylesheet" type="text/css" href="css/media.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,15 +19,22 @@
         <a href="../index.html"><img src="css/img/logo_black.png" alt="" class="logoLink"></a>
 
         <nav>
-            <div class="searchBox">
-                <input type="text" placeholder="Search">
-                <ion-icon name="search-outline"></ion-icon>
-            </div>
             <ul class="menu">
                 <li class="topik_menu"><a href="../history_Rivne/history.html">Перші згадки про Рівне</a></li>
                 <li class="topik_menu"><a href="../tourist_Rivne/tourist.html">Туристичне Рівне</a></li>
                 <li class="active-page"><a href="#">Рівне - сьогодні</a></li>
             </ul>
+            <div class="burger-menu">
+                <a href="" class="burger-menu_button">
+                  <span class="burger-menu_lines"></span>
+                </a>
+                <nav class="burger-menu_nav">
+                    <a class="burger-menu_link" href="#">Перші згадки про Рівне</a>
+                    <a class="burger-menu_link" href="../tourist_Rivne/tourist.html">Туристичне Рівне</a>
+                    <a class="burger-menu_link" href="../nowadays_Rivne/nowadays.html">Рівне - сьогодні</a>
+                </nav>
+                <div class="burger-menu_overlay"></div>
+            </div>
         </nav>
     </header>
     <main>
@@ -64,8 +72,6 @@
             </ul>
         </div>
     </footer>
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-    
+    <script type="text/javascript" src = "burger_script.js"></script>
 </body>
 </html>

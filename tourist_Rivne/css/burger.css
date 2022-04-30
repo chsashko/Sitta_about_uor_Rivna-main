@@ -3,6 +3,9 @@
   margin: 0;
   padding: 0;
 }
+.burger-menu{
+  visibility: hidden;
+}
 .burger-menu_button {
   position: fixed;
   top: 10px;
