@@ -73,6 +73,9 @@
         font-size: 1.5em;
         top: 0.8em;
     }
+    .info{
+        width: 45%;
+    }
 }
 
 @media screen and (min-width : 300px) and (max-width : 950px) {

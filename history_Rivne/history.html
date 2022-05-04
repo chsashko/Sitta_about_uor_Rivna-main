@@ -12,6 +12,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@600&family=Raleway:ital,wght@1,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@599&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/swiper/swiper-bundle.min.css" rel="stylesheet"/>
 
 </head>
 <body>
@@ -47,7 +49,21 @@
         </div>
         <div class = "info-block">
             <div class = "first_period">
-                <img src="css/img/first_world_war.jpg" alt="" class = "img_first_war">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">Slide 1</div>
+                      <div class="swiper-slide">Slide 2</div>
+                      <div class="swiper-slide">Slide 3</div>
+                      <div class="swiper-slide">Slide 4</div>
+                      <div class="swiper-slide">Slide 5</div>
+                      <div class="swiper-slide">Slide 6</div>
+                      <div class="swiper-slide">Slide 7</div>
+                      <div class="swiper-slide">Slide 8</div>
+                      <div class="swiper-slide">Slide 9</div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                  </div>
                 <p class = "info">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit, itaque officia eaque incidunt consequatur possimus voluptatum expedita tempora hic ipsa, quam, voluptate natus! Quibusdam mollitia nulla rem beatae, similique labore.</p>
             </div>
         </div>
@@ -85,5 +101,14 @@
     </footer>
     <script src="burger_script.js"></script>
     <script src="anim_line.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+      </script>
 </body>
 </html>

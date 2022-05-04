@@ -48,26 +48,56 @@ nav{
     margin: 0 auto;
     justify-content: center;
 }
-
-.img_first_war{
-    width: 20em;
-    height: 20em;
-    margin-top: 10em;
-    border-radius: 10%;
-}
 .first_period{
     display: flex;
     width: 100%;
     flex-direction: row;
     align-items: center;
+    margin-right: 20em;
 }
 
 .info{
+    font-family: 'Montserrat', bold;
+    text-align: center;
     font-size: 1.5em;
     margin-left: 2em;
     color: white;
     width: 50%;
 }
+
+.swiper {
+    margin-top: 10em;
+    width: 20em;
+    height: 20em;
+  }
+
+  .swiper-slide {
+    border-radius: 10%;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
 
 main {
     width: 100%;
@@ -93,13 +123,13 @@ main {
     background: #404040;
     border-radius: 50%;
     top: 30%;
-    left: 74.9%;
+    left: 74.8%;
 }
 .year{
     position: relative;
     color: white;
     font-family: 'Raleway', sans-serif;
-    font-size: 2.5em;
+    font-size: 2em;
     text-align: center;
     top: 0.8em;
     
