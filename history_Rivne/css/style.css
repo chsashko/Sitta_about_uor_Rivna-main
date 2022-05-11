@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 header {
     display: flex;
     width: 100%;
@@ -53,18 +54,26 @@ nav{
     width: 100%;
     flex-direction: row;
     align-items: center;
-
     margin-right: 35em;
 }
+.bg{
+    background-color: black;
+    opacity: 85%;
+    width: 60%;
+    border-radius: 50px;
+    border: 10px solid black;
+    margin-top: 10em;
 
+}
 .info{
-    font-family: 'Montserrat', bold;
-    text-align: center;
+    font-family: 'Lora';
+    text-align: justify;
     font-size: 1.5em;
-    margin-top: 7em;
-    margin-left: 2em;
+    line-height: 1.5em;
     color: white;
-    width: 50%;
+    filter: drop-shadow(15px 15px 25px black);
+    width: 90%;
+    margin: 0 auto;
 }
 
 .swiper {
