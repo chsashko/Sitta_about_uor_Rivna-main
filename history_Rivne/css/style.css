@@ -43,13 +43,7 @@ nav{
 }
 
 /* start of information */
-.info-block{
-    display: flex;
-    width: 100%;
-    margin: 0 auto;
-    justify-content: center;
-}
-.first_period{
+.first_period, .second_period{
     display: flex;
     width: 100%;
     flex-direction: row;
@@ -57,12 +51,13 @@ nav{
     margin-right: 35em;
 }
 .bg{
-    background-color: black;
+    background-color: #202020;
     opacity: 85%;
-    width: 60%;
+    width: 40%;
     border-radius: 50px;
-    border: 10px solid black;
+    border: 10px solid #404040;
     margin-top: 10em;
+    margin-right: 35em;
 
 }
 .info{
@@ -124,14 +119,14 @@ main {
     background-repeat: no-repeat;
     background-attachment: fixed;
     }
-.line{
-    position: absolute;
+/* .line{ 
     min-height: 1080px;
+    background-size: cover;
     width: 2.5em;
     background: #FFC700;
     border-radius: 10%;
     margin-left: 77%;
-}
+}*/
 .circle_years{
     position: absolute;
     width: 8em;
@@ -144,7 +139,7 @@ main {
 .year{
     position: relative;
     color: white;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Lora';
     font-size: 2em;
     text-align: center;
     top: 0.8em;
