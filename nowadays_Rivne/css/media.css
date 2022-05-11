@@ -1,70 +1,70 @@
 @media screen and (min-width:  1366px) and (max-width:  1919px){
-.logoLink{
+		.logoLink{
     	position:relative;
     	top: 0.65em;
     	left: 0.65em;
     	width: 8em;
     	height: 3em;
 	}
-nav{
+	nav{
 		top: 12%;
 	}
 
-.topik_menu, .active-page{
+	.topik_menu, .active-page{
     	font-size: 0.9em;
 	}
-header {
+	header {
     	height: 4.7em;
 	}
-.searchBox{
+	.searchBox{
     	width: 42.5px;
     	height: 30px;
     	right: 9%;
 	}
-ion-icon{
+	ion-icon{
 		right: 20%;
 	}
-.searchBox input{
+	.searchBox input{
 		padding: 5px 20px;
 	}
-.searchBox:hover{
+	.searchBox:hover{
     	width: 300px;
 	}
-footer {
+	footer {
     	height: 6em;
 	}
-.logo_white {
+	.logo_white {
     	width: 8em;
     	height: 3em;
     	margin-top: -0.65em;
     	margin-left: -2em;
     }
 
-.sponsor_img {
+	.sponsor_img {
 		margin-top: -1.3em;
     	width: 3.7em;
     	height: 3.7em;
     }
 
-.sibir_menu,
-.sponsor,
-.developers {
+    .sibir_menu,
+	.sponsor,
+	.developers {
     	font-size: 0.7em;
     	color: rgb(255, 255, 255);
     }
-.adv{
+    .adv{
     	margin-right: 5em;
     }
-.sponsor{
-        margin-bottom: 2em;
+    .sponsor{
+    	margin-top: 1.1em;
     }
     
-.sibir {
+    .sibir {
     	margin-left: -5em;
     	margin-top: -1.2em;
 	}
 	
-.about_us {
+	.about_us {
 		margin-left: -5em;
     	margin-top: -1.2em;
 	}

@@ -17,6 +17,3 @@ function toggleMenu(){
         document.querySelector('body').css('overflow', 'visible')
     }
 }
-
-links.addEventListener('click',()=>toggleMenu());
-overlay.addEventListener('click',()=>toggleMenu());
