@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "..\\.."
+		},
+		{
+			"path": "..\\..\\..\\JS\\svg_morf"
+		},
+		{
+			"path": "..\\..\\..\\..\\Users\\vipko\\PycharmProjects\\django\\pocketsita\\Django_first_site"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Sitta_about_uor_Rivna-main"
+	}
+}

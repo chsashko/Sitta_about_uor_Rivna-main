@@ -4,6 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+
+
     <link rel="stylesheet" href="css/style.css">
     <title>About Us</title>
 </head>
@@ -24,8 +32,83 @@
             </nav>        
         </header>
         <main class="content-main">
-
+            <!-- Swiper -->
+            <div class="swiper mySwiper swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                      <div class="swiper-body">
+                          
+                      </div>
+                      <div class="swiper-footer">
+                        <div class="swiper-info">
+                            <p class="swiper-info__author">Автор: Даниїл Коротков</p>
+                            <p class="swiper-info__item">
+                                <img src="./css/images/insta.svg" alt="">
+                                <span>Instagram</span>
+                                
+                            </p>
+                            
+                        </div>
+                      </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="swiper-body">
+                        slide-2
+                    </div>
+                    <div class="swiper-footer">
+                        <div class="swiper-info">
+                            <p class="swiper-info__author">Автор: Артем Кучерук</p>
+                            <p class="swiper-info__item">
+                                <img src="./css/images/insta.svg" alt="">
+                                <span>Instagram</span>
+                            </p>
+                            
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="swiper-body">
+                        <img src="./css/images/SaSHA.svg" alt="">
+                        <div class="swiper-body-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, adipisci laborum ratione voluptate perspiciatis eaque eos temporibus ex quos nemo, quae id. Eum atque voluptatibus quasi in doloribus sunt totam?
+                        </div>
+                    </div>
+                    <div class="swiper-footer">
+                        <div class="swiper-info">
+                            <p class="swiper-info__author">Автор: Олександир Чернюк</p>
+                            <p class="swiper-info__item">
+                                <a href="https://www.instagram.com/ch_sanya03/"><img src="./css/images/insta.svg" alt=""></a>
+                                <a href="https://www.instagram.com/ch_sanya03/"><span>Instagram</span></a>
+                            </p>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
         </main>
     </div>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+        var names = ['DanilGhosty', 'tema_kuch', 'ch_sanya'];
+        var job = ['Кодер','Кодер','Кодер'];
+        var add = ['gone','gone','present'];
+        var swiper = new Swiper(".mySwiper", {
+          direction: "vertical",
+          slidesPerView: 1,
+          spaceBetween: 30,
+          mousewheel: true,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+            renderBullet: function (index, className) {
+                return '<p class="' + className + '">' + ('#' + (names[index])) + '<span>' + (job[index]) + '</span>' + '<span>' + (add[index]) + '</spanx>' + "</p>";
+            },
+          },
+        });
+    </script>
 </body>
 </html>
