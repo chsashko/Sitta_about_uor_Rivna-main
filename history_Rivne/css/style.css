@@ -145,6 +145,10 @@ main {
     top: 0.8em;
     
 }
+.year.-active{
+    transition: all 1.5s;
+
+}
 footer {
     margin-top: auto;
     background-color: #404040;

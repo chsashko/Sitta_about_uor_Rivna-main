@@ -74,7 +74,10 @@
         top: 0.8em;
     }
     .info{
-        width: 45%;
+        width: 90%;
+    }
+    .bg{
+        margin-right: 32em;
     }
 }
 

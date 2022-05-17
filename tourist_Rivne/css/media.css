@@ -83,11 +83,12 @@
 
 }
 
-@media screen and (min-width:  300px) and (max-width:  500px){
-	.burger-menu{
-		visibility: visible;
-	}
-	.topik_menu, .active-page{
-		visibility: hidden;
-	}
+@media screen and (min-width : 300px) and (max-width : 950px) {
+    .burger-menu {
+        visibility: visible;
+    }
+    .topik_menu,
+    .active-page {
+        visibility: hidden;
+    }
 }
