@@ -43,7 +43,7 @@ nav{
 }
 
 /* start of information */
-.first_period, .second_period{
+.first_period, .second_period, .third_period{
     display: flex;
     width: 100%;
     flex-direction: row;

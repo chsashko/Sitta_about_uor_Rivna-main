@@ -11,4 +11,7 @@ window.addEventListener('scroll', function(){
     if(this.window.scrollY >= 420){
         year.innerHTML = "1939-1945";     
     }
+    if(this.window.scrollY >= 1150){
+        year.innerHTML = "1945-1991";
+    }
 })
