@@ -56,10 +56,11 @@ main {
     background-attachment: fixed;
 }
 .text{
-    width: 50%;
+    text-indent: 5%;
+    width: 75%;
     margin: 0 auto;
     background-color: #000;
-    border-radius: 2.5em;
+    border-radius: 1em;
     border: 10px solid #404040;
     color: #FFF;
     font-family: 'Lora', serif;
