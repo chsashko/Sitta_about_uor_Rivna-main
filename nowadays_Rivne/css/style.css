@@ -50,10 +50,28 @@ main {
     width: 100%;
     min-height: 1080px;
     margin: 0 auto;
-    /* background-image: url("https://imgur.com/RCzpnnQ.png"); */
+    background-image: url("img/background_nowadays.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+.photo_container{
+    align-content: space-between;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    width: 80%;
+    height: 100%;
+    left: 30%;
+    align-items: center;
+}
+.photo_content{
+    margin: 1em;
+    border: 0.2em solid #FFC700;
+    max-width: 800px;
+    max-height: 500px;
 }
 .text{
     text-indent: 5%;
