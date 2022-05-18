@@ -84,11 +84,11 @@
 }
 
 @media screen and (min-width : 300px) and (max-width : 950px) {
-    .burger-menu {
-        visibility: visible;
-    }
-    .topik_menu,
+        .topik_menu,
     .active-page {
         visibility: hidden;
+ 	}
+	.burger-menu{
+        visibility: visible;
     }
 }
