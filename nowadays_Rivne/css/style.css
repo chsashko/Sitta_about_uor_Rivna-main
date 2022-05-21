@@ -67,8 +67,8 @@ main {
     left: 30%;
     align-items: center;
 }
-.photo_content{
-    margin: 1em;
+.new_photo{
+    margin-right: 40em;
     border: 0.2em solid #FFC700;
     max-width: 800px;
     max-height: 500px;

@@ -67,6 +67,18 @@
 		margin-left: -5em;
     	margin-top: -1.2em;
 	}
+	.new_photo{
+		max-width: 480px;
+		max-height: 360px;
+		margin-right: 30em;
+	}
+	.old_photo{
+		margin-right: 15em;
+		border: 0.2em solid #FFC700;
+		background: white;
+		max-width: 480px;
+		max-height: 360px;
+	}
 }
 
 @media screen and (min-width : 300px) and (max-width : 950px) {
