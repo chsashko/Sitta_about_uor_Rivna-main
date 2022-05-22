@@ -5,6 +5,7 @@
   padding: 0;
   margin: 0;
   text-decoration: none;
+  list-style: none;
 }
 body {
   background: linear-gradient(108deg, #343131 -2%, #1d1919 102%);
@@ -162,10 +163,17 @@ nav {
   display: block;
   width: 600px;
   font-family: 'Oswald', sans-serif;
-  font-size: 20px;
+  font-size: 37px;
 }
 
-.swiper-body img{
+.swiper-body__img_artem{
+  left: 460px;
+  width: 45%;
+  position: relative;
+  top: -1px;
+}
+
+.swiper-body__img_sasha{
   left: 257px;
   width: 65%;
    position: relative;
