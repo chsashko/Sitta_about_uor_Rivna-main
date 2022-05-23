@@ -17,7 +17,7 @@ html {
 
 .content {
   display: grid;
-  grid-template-columns: 110px 1fr repeat();
+  grid-template-columns: 110px 1fr ;
   grid-template-rows: 100px 1fr;
   height: 100%;
   /* gap: 60px; */
@@ -166,8 +166,8 @@ nav {
   font-size: 37px;
 }
 
-.swiper-body__img_artem{
-  left: 460px;
+.swiper-body__img_danil,.swiper-body__img_artem{
+  left: 400px;
   width: 45%;
   position: relative;
   top: -1px;
