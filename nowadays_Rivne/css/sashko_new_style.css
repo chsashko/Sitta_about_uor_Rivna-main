@@ -70,7 +70,7 @@ main {
     align-items: center;
     margin: 0 auto;
     display: grid;
-    padding: 1em;
+    padding: 3em;
     grid-template-columns: 1fr 1fr;
     grid-gap: 2em;
     min-width: 20em;
@@ -95,7 +95,7 @@ main {
     text-indent: 5%;
 }
 .container-text{
-    padding-top: 40%;
+    padding-top: 32%;
 }
 .others{
     padding-top: 5%;
