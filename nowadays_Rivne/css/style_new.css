@@ -43,57 +43,14 @@ header{
 }
 main {
     width: 100%;
+    background-image: url("img/background_nowadays.png");
     min-height: 1080px;
     margin: 0 auto;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+
 }
-.photos_container{
-}
-footer{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    background-color: rgb(64, 64, 64);
-    font-family: 'Raleway', sans-serif;
-    height: 9em;
-    color: aliceblue;
-}
-footer ul{
-    text-align: center;
-}
-.sibir{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.sponsor_img {
-    width: 6.5em;
-    height: 6.5em;
-}
-.logo_white {
-    width: 12em;
-    height: 4.5em;
-}
-.logo_div{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.about_us{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.adv{
-    display: flex;
-    flex-direction: column;
-    align-content: stretch;
-    justify-content: space-evenly;
-    align-items: center;
-}
-.sibir_menu, .sponsor, .developers {
-    top: -2.5em;
-    font-size: 0.9em;
-    color: rgb(255, 255, 255);
+.container-text{
+    padding:50%
 }
